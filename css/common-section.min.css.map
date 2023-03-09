@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,AAAC,CACb,UAAU,CAAE,2CAA2C,CAAC,SAAS,CAAC,MAAM,CAAC,MAAM,CAC/E,eAAe,CAAE,KAAK,CACtB,OAAO,CAAE,SAAS,CAClB,MAAM,CAAE,KAAK,CACb,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,eAAe,CAAE,MAAM,CAC1B,AAED,AAAA,gBAAgB,CAAC,EAAE,AAAA,CACf,KAAK,CAAE,IAAI,CACX,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,IAAI,CAClB",
+    "sources": [
+        "../styles/common-section.scss"
+    ],
+    "names": [],
+    "file": "common-section.min.css"
+}

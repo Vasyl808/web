@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/all.css">
+    <link rel="stylesheet" href="css/shoping-card.min.css">
+    <link rel="stylesheet" href="css/index.min.css">
+    <link rel="stylesheet" href="css/header.min.css">
+    <link rel="stylesheet" href="css/blackHeader.min.css">
+    <link rel="stylesheet" href="css/common-section.min.css">
+</head>
+<body>
+
+    <header class='header'>
+        <div class="header__menu">
+            <div class="header__logo">
+                <img src="/assets/icons/logo.svg" alt="logo"/>
+            </div>
+            <ul>
+                <li class="header__nav">
+                    <div class="header__links">
+                        <a href="/Home.html">Coffee house</a>
+                        <a href="/OurCoffee.html">Our coffee</a>
+                        <a href="/About.html">For your pleasure</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="header__shop">
+            <span class='header__shop-icons'>
+                <a href="/ShopingCard.html">
+                    <img src="/assets/icons/cart.png" class="header__img" alt="">
+                </a>
+                <div class="header__badge ">
+                    1
+                </div>
+            </span>
+        </div>
+        <div class="header__user">
+            <a href="/Login.html"><i class="fa-regular fa-user"></i></a>
+        </div>
+    </header>
+
+    <section class="common__section">
+        <div class='text-center'>
+            <h1>Shoping Card</h1>
+        </div>
+    </section>
+        <div class="card">
+
+            <table  class='table bordered'>
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Qty</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src='/assets/image/items-img/aromistico-coffee.jpg' alt="coffee" />
+                        </td>
+                        <td>Solimo Coffee Beans 2 kg</td>
+                        <td>$69</td>
+                        <td>1px</td>
+                        <td>
+                            <div>
+                                <i class="fa-solid fa-trash"></i>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="card__wrapper">
+                <div class="card__subtotal">
+                    <div class="card__subtotal-title">
+                        Subtotal
+                    </div>
+                    <div class="card__subtotal-price">
+                        $69
+                    </div>
+                </div>
+                <div class="card__subtitle">
+                    taxes and shipping will calculate in checkout
+                </div>
+                <button class="buy__btn-w-300">
+                    <a to='#'>Checkout</a>
+                </button>
+                <button class="buy__btn-w-300">
+                    <a href="/OurCoffee.html">Continue Shoping</a>
+                </button>
+            </div>
+        </div>
+
+        <footer>
+            <div class='blackheader'>
+                <div class="blackheader__menu">
+                    <div class="blackheader__logo">
+                        <img src='/assets/icons/black-logo.svg' alt="logo" />
+                    </div>
+                        <li class="blackheader__nav" key={index}>
+                            <div class="blackheader__links">
+    
+                                <a href="/Home.html">Coffee house</a>
+                                <a href="/OurCoffee.html">Our coffee</a>
+                                <a href="/About.html">For your pleasure</a>
+                            </div>
+                        </li>
+                    
+                </div>
+            </div>
+                <div class="footer-bottom">
+                    <div class="coffee-beans">
+                        <hr class='hr'/>
+                        <img src='/assets/icons/coffee-beans.svg' alt="beans" class="beans-img" />
+                        <hr class='hr'/>
+                    </div>
+                </div>
+        </footer>
+</body>
+</html>

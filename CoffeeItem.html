@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/all.css">
+    <link rel="stylesheet" href="css/index.min.css">
+    <link rel="stylesheet" href="css/header.min.css">
+    <link rel="stylesheet" href="css/blackHeader.min.css">
+    <link rel="stylesheet" href="css/common-section.min.css">
+    <link rel="stylesheet" href="css/coffee-item.min.css">
+</head>
+<body>
+
+    <header class='header'>
+        <div class="header__menu">
+            <div class="header__logo">
+                <img src="/assets/icons/logo.svg" alt="logo"/>
+            </div>
+            <ul>
+                <li class="header__nav">
+                    <div class="header__links">
+                        <a href="/Home.html">Coffee house</a>
+                        <a href="/OurCoffee.html">Our coffee</a>
+                        <a href="/About.html">For your pleasure</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="header__shop">
+            <span class='header__shop-icons'>
+                <a href="/ShopingCard.html">
+                    <img src="/assets/icons/cart.png" class="header__img" alt="">
+                </a>
+                <div class="header__badge ">
+                    1
+                </div>
+            </span>
+        </div>
+        <div class="header__user">
+            <a href="/Login.html"><i class="fa-regular fa-user"></i></a>
+        </div>
+    </header>
+
+    <section class="common__section">
+        <div class='text-center'>
+            <h1>Aromistico Coffee</h1>
+        </div>
+    </section>
+        
+        <section class="coffee">
+            <img src='/assets/image/img/about-coffeee.jpg' alt="coffee" class="coffee__img" />
+            
+            <div class="coffee__descr">
+                <h2 class="title-pt-0">Aromistico Coffee</h2>
+                <Beans/>
+                <div class="coffee__country">
+                    <div class="coffee__country-title">
+                        Country:
+                    </div>
+                    <div class="coffee__country-name">
+                        Brazil
+                    </div>
+                </div>
+                <div class="coffee__description">
+                    <div class="coffee__description-value">
+                    <b>Description:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
+                <div class="coffee__price">
+                    <div class="coffee__price-title">
+                        Price:
+                    </div>
+                    <div class="coffee__price-value">
+                        69$
+                    </div>
+                    <button class='buy__btn' onClick={addToCard}>Add to card</button>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class='blackheader'>
+                <div class="blackheader__menu">
+                    <div class="blackheader__logo">
+                        <img src='/assets/icons/black-logo.svg' alt="logo" />
+                    </div>
+                        <li class="blackheader__nav" key={index}>
+                            <div class="blackheader__links">
+    
+                                <a href="/Home.html">Coffee house</a>
+                                <a href="/OurCoffee.html">Our coffee</a>
+                                <a href="/About.html">For your pleasure</a>
+                            </div>
+                        </li>
+                    
+                </div>
+            </div>
+                <div class="footer-bottom">
+                    <div class="coffee-beans">
+                        <hr class='hr'/>
+                        <img src='/assets/icons/coffee-beans.svg' alt="beans" class="beans-img" />
+                        <hr class='hr'/>
+                    </div>
+                </div>
+        </footer>
+</body>
+</html>

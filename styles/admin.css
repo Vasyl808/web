@@ -1,0 +1,33 @@
+.admin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.admin__wrapper {
+  width: 200px;
+}
+.admin__title {
+  text-align: center;
+}
+.admin__btns {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.admin__btn {
+  margin-top: 20px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  height: 40px;
+  background-color: rgb(128, 113, 74);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+}
+.admin__btn a {
+  text-decoration: none;
+  color: #fff;
+}/*# sourceMappingURL=admin.css.map */

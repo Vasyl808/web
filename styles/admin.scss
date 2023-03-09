@@ -1,0 +1,38 @@
+.admin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+    &__wrapper {
+        width: 200px;
+    }
+
+    &__title {
+        text-align: center;
+    }
+
+    &__btns {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    &__btn {
+        margin-top: 20px;
+        cursor: pointer;
+        width: 100%;
+        margin-top: 20px;
+        height: 40px;
+        background-color: rgb(128, 113, 74);
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    &__btn a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
